@@ -1,2 +1,2 @@
 this is my first repository in github <br>
-i learn git hub from apna collage which is taught by kiran panhta 
+i learn git hub from apna collage which is taught by many teacher 
