@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="clone.css" />
+</head>
+
+<body>
+  <div class="main">
+    <nav ">
+      <span> <img width=" 220px" src="logo.png" alt="logo"></span>
+      <div class="button">
+        <button style="font-size: 16px;">sign in</button>
+      </div>
+    </nav>
+
+    <div class="content">
+
+      <p style="font-size: 50px; font-weight: bolder;">Unlimited movies, TV shows, and more</p>
+      <p style="font-size: 20px;">Watch anywhere. Cancel anytime.</p>
+
+      <p style="font-size: 20px;">Ready to watch? Enter your email or mobile number to create or restart your
+        membership.</p>
+
+      <div content1>
+        <input class="inputtype1" type="text" placeholder="Email or mobile number">
+        <button class=" getstarted">
+          <pre> Get Started > </pre>
+        </button>
+      </div>
+
+
+    </div>
+    <div class="box">
+
+    </div>
+  </div>
+
+
+
+
+  </div>
+
+  <div class="seperation">
+
+  </div>
+
+  <div class="main2">
+    <div class="main2content">
+      <p style="font-size: 64px; font-weight: bolder;">Enjoy on your TV</p>
+      <p style="margin-top: 1.5rem; font-size: 29px;"> Watch on Smart TVs, Playstation, Xbox, Chromecast,
+      </p>
+      <p style="font-size: 29px;"> Apple TV, Blu-ray players, and more.</p>
+    </div>
+
+    <div class="vedio">
+      <img src="main2.jpg" alt="">
+
+    </div>
+
+  </div>
+
+  </div>
+
+  <div class="seperation">
+
+  </div>
+
+
+  <div class="main3">
+    <div class="vedio">
+      <img src="main3.jpg" alt="">
+
+    </div>
+    <div class="main3content">
+      <p style="font-size: 64px; font-weight: bolder;">Download your shows to watch offline</p>
+      <p style="margin-top: 1.5rem; font-size: 29px;"> Save your favorites easily and always have something to watch.
+      </p>
+
+    </div>
+
+
+
+  </div>
+
+  </div>
+
+  <div class="seperation">
+
+  </div>
+
+  <div class="main4">
+    <div class="content4">
+      <p style="font-size: 64px; font-weight: bolder;">Watch everywhere</p>
+      <p style="margin-top: 1.5rem; font-size: 29px;">Stream unlimited movies and TV shows on your phone, tablet,
+        laptop, and TV.</p>
+    </div>
+
+
+  </div>
+
+
+
+  <div class="seperation">
+
+  </div>
+
+
+
+
+  <div class="main5">
+    <div class="img">
+      <img src="main5.png" alt="">
+    </div>
+
+    <div class="content5">
+      <p style="font-size: 61px; font-weight: bolder;">Create profiles for kids</p>
+      <p style="margin-top: 1.5rem; font-size: 29px;">Send kids on adventures with their favorite characters in a space
+        made just for them—free with your membership.</p>
+    </div>
+
+
+  </div>
+
+
+
+
+  <div class="seperation">
+
+  </div>
+
+
+
+
+  <div class="footer">
+
+    <div class="contentfooter">
+      .
+      <div class="box"><a href="">Questions? Contact us</a>
+        <a href="">FAQ</a>
+        <a href="">Investor Relations</a>
+        <a href="">Privacy</a>
+        <a href="">Speed Test</a>
+
+      </div>
+
+
+
+      <div class="box"><a href="">Help Center</a>
+
+        <a href="">job</a>
+        <a href="">Cookie Preferences</a>
+        <a href="">Legal Notices</a>
+
+
+      </div>
+     
+
+
+      <div class="box"><a href="">Account</a>
+        <a href="">
+          Ways to Watch
+        </a>
+        <a href="">Corporate Information
+
+        </a>
+        <a href="">
+          Only on Netflix
+        </a>
+       
+
+
+
+      </div>
+
+
+      <div class="box"><a href="">Media Center</a>
+        <a href="">
+          Terms of Use
+        </a>
+
+        <a href="">
+          Contact Us
+        </a>
+
+
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+</body>
+
+</html>
+...........................................................................................................................................................................................................
+
+
+
+
+
+
+
+
+
+
+
+
+.................................................................................................................................................................................................................
+
+*{
+  padding: 0;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.main{
+  background-image: url(back.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  width:  100vw
+ 
+}
+.main .box{
+  height:90vh;
+  width: 100vw;
+  background-color: black;
+  opacity: 0.6;
+ position:absolute;
+  top: 0;
+}
+.main .button button{
+  background-color: red;
+  color: white;
+  border-radius: 6px;
+  padding: 5px 7px;
+  position: relative;
+  z-index: 2;
+  border: none;
+  font-weight: bold;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 80vw;
+  align-items: center;
+
+
+}
+.main img {
+  position: relative;
+  z-index: 1;
+
+}
+.content{
+  color: white;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 60vw;
+  margin: auto;
+
+  align-items: center;
+  gap: 27px;
+  margin-top: 200px;
+  text-align: center;
+  padding: 5px;
+}
+
+ .inputtype1{
+  font-size: 1rem; padding: 20px; 
+  padding-right: 120px;
+  border-radius: 8px;
+  border: 0.5px solid ;
+  
+  background: transparent;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  position: relative;
+  z-index: 3;
+  font-weight: bold;
+  
+}
+
+.getstarted{
+  font-size: 23px;
+  font-weight: bold;
+  border-radius: 6px;
+  padding: 17px;
+  color: white;
+  background-color: red;
+  border: none;
+ 
+}
+
+.seperation{
+  height: 0.5rem;
+  width: 100vw;
+  background-color:rgb(48, 46, 46);
+
+
+}
+
+.main2{
+  background-color: black;
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin: auto;
+  
+
+
+
+
+
+}
+.main2content{
+  color: white;
+  
+
+}
+
+.main3{
+  background-color: black;
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin: auto;
+  
+
+
+
+
+
+}
+.main3content{
+  color: white;
+  
+
+}
+
+.main4{
+  background-color: black;
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  
+
+}
+.content4{
+  width: 29vw;
+  position: relative;
+  right: 369px;
+ 
+}
+
+.main5{
+  background-color: black;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  align-items: center;
+
+}
+.content5{
+  color: white;
+  width: 39vw;
+  margin: auto;
+}
+
+
+.footer{
+  height: 50vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  display: flex;
+  
+ 
+  
+  
+ 
+  
+
+}
+.contentfooter{
+  width: 70vw;
+  margin: auto;
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+ 
+  margin-right: 450px;
+  
+ 
+}
+.box a{
+  display: block;
+  color: white;
+  text-decoration-color: white;
+  gap: 17px;
+  padding: 17px;
+  text-decoration-thickness: 1px ;
+  font-family: sans-serif;
+  font-size: 0.85rem;
+ 
+  
+}
+
+
+
