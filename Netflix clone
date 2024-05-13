@@ -5,15 +5,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
-  <link rel="stylesheet" href="clone.css" />
+  <link rel="stylesheet" href="k.css" />
 </head>
 
 <body>
   <div class="main">
     <nav ">
-      <span> <img width=" 180px" src="https://maven-uploads.s3.amazonaws.com/120386748/projects/netflix%20image.jpg" alt="logo"></span>
+      <span> <img width=" 170px" src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="logo"></span>
+
       <div class="button">
-        <button style="font-size: 16px;">sign in</button>
+        <button style="font-size: 20px;">sign in</button>
       </div>
     </nav>
 
@@ -215,13 +216,17 @@
 
 .................................................................................................................................................................................................................
 
+
+
+
+
 *{
   padding: 0;
   margin: 0px;
   box-sizing: border-box;
 }
 .main{
-  background-image: url(https://www.slashgear.com/img/gallery/netflix-4k-streaming-on-macos-big-sur-to-require-a-t2-security-chip/intro-import.jpg);
+  background-image: url(https://maven-uploads.s3.amazonaws.com/120386748/projects/netflix%20image.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   height: 90vh;
@@ -232,7 +237,7 @@
   height:90vh;
   width: 100vw;
   background-color: black;
-  opacity: 0.6;
+  opacity: 0.7;
  position:absolute;
   top: 0;
 }
@@ -244,14 +249,16 @@
   position: relative;
   z-index: 2;
   border: none;
-  font-weight: bold;
+  font-weight: 300;
+  margin-top: 30px;
+  
 }
 
 nav{
   display: flex;
   justify-content: space-between;
   margin: auto;
-  max-width: 80vw;
+  max-width: 76vw;
   align-items: center;
 
 
@@ -259,7 +266,7 @@ nav{
 .main img {
   position: relative;
   z-index: 1;
-  margin-top: 10px;
+  margin-top: 30px;
 
 }
 .content{
@@ -428,6 +435,3 @@ nav{
  
   
 }
-
-
-
