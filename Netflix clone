@@ -11,7 +11,7 @@
 <body>
   <div class="main">
     <nav ">
-      <span> <img width=" 220px" src="logo.png" alt="logo"></span>
+      <span> <img width=" 180px" src="https://maven-uploads.s3.amazonaws.com/120386748/projects/netflix%20image.jpg" alt="logo"></span>
       <div class="button">
         <button style="font-size: 16px;">sign in</button>
       </div>
@@ -57,7 +57,7 @@
     </div>
 
     <div class="vedio">
-      <img src="main2.jpg" alt="">
+      <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="">
 
     </div>
 
@@ -72,7 +72,7 @@
 
   <div class="main3">
     <div class="vedio">
-      <img src="main3.jpg" alt="">
+      <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="">
 
     </div>
     <div class="main3content">
@@ -113,7 +113,7 @@
 
   <div class="main5">
     <div class="img">
-      <img src="main5.png" alt="">
+      <img src="https://occ-0-2797-3647.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABejKYujIIDQciqmGJJ8BtXkYKKTi5jiqexltvN1YmvXYIfX8B9CYwooUSIzOKneblRFthZAFsYLMgKMyNfeHwk16DmEkpIIcb6A3.png?r=f55" alt="">
     </div>
 
     <div class="content5">
@@ -221,7 +221,7 @@
   box-sizing: border-box;
 }
 .main{
-  background-image: url(back.jpg);
+  background-image: url(https://www.slashgear.com/img/gallery/netflix-4k-streaming-on-macos-big-sur-to-require-a-t2-security-chip/intro-import.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   height: 90vh;
@@ -259,6 +259,7 @@ nav{
 .main img {
   position: relative;
   z-index: 1;
+  margin-top: 10px;
 
 }
 .content{
